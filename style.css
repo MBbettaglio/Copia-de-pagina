@@ -1,0 +1,267 @@
+*{margin: 0;
+    padding: 0;
+  }
+ 
+
+    body{font-family:'Lato';}
+
+    html{
+    scroll-behavior:smooth;
+  }
+
+  header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      }
+.Logo{
+    font-size: 0.7rem ;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+}
+.Redes{
+    color: #2eabbb;
+}
+  a{text-decoration:  none;
+    color: black;
+    letter-spacing: 0.1rem;
+    
+      
+  }
+  
+  nav > a{margin-left: 15px;
+    
+  }
+
+  .hamburguesa{
+    color: black;
+    display: none;
+    cursor: pointer;
+    font-size: 32px;
+
+  }
+  
+  @media(max-width:500px){
+      nav,div{
+          display: none;
+      }
+      .hamburguesa{
+          display: block;
+          color: black;
+    }
+
+      header{
+          flex-direction: column;
+      }
+      nav {
+          display: flex;
+          flex-direction: column;
+          }
+      section{
+        display: flex;
+        flex-wrap: wrap;
+}
+  }  
+  .contenedorHero{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background:linear-gradient(0deg, rgba(0,6,28,0.5) 33%, rgba(34,193,195,0.5) 100%), url(./imagenheader/imagen1.jpg);
+      letter-spacing: 0.2rem;
+    
+  }    
+  
+  .tituloHero{
+      font-size: 4rem;
+      text-transform: uppercase;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      letter-spacing: 0.2rem;
+  }
+  
+  .textoHero{
+      font-size: 1rem;
+      color: white;
+      max-width: 50%;
+      text-align: center;  
+      padding-bottom: 2rem;
+      letter-spacing: 0.2rem;
+  }
+  
+  .btnHero{
+      display: flex;
+      ;
+      padding: 0.9rem 1.6rem;
+      border: 1px solid white;
+      color:#2eabbb;
+      font-size: 2rem;
+      background-color: white ;
+      text-transform: uppercase;
+      cursor: pointer;
+      
+  }
+
+.btnabout{
+    background-color: #2eabbb;
+    color: white;
+    padding: 5px;
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid #2eabbb ;
+    cursor: pointer;
+}
+
+.textoPrincipal{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+    letter-spacing: 0.5rem;
+    font-size: 2.8rem;
+
+}
+span{
+    color: #2eabbb;
+}
+
+button:hover{
+      background-color:#2eabbb;
+      color:white;
+      border-color: #2eabbb;      
+  }
+
+  img{
+    width: 30%;
+    
+
+  }
+  .contenedorImgTxT{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorTxtAbout{
+    width: 40%;
+    margin-left: 3.5rem;
+    color: #014750;
+}
+    
+
+    
+    
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+h2{
+    padding-bottom: 1rem;
+}
+  .txtUno{
+    padding-bottom: 1rem;
+  }
+  .txtDos{
+    padding-bottom: 1rem;
+  }
+  .about{
+    padding-bottom: 3.5rem;
+  }
+  .service{
+    background-color: #F0F4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+  }
+  
+  @media(max-width: 500px){
+  section{
+        display:flex;
+        flex-direction: column;
+      }
+      }
+    
+  .contenedorServicios{
+    display: flex;
+    width: 70%;
+  }
+  
+  
+  .contenedorTextoServicios{
+    margin-left: 1rem ;
+    color: #014750;
+    font-size: 0.8rem;
+  }
+   
+
+  .colorIcono{
+    font-size: 1,5rem;
+    background-color: #2eabbb;
+    padding: 15px;
+    height: 20px;
+    color: #014750;
+    font-weight: 100;
+    margin-bottom: 7rem ;
+  }
+  .items {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 8rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 225px;
+    height: 300px;
+    background-color:#F0F4F6;
+    border: 0.8rem solid white;
+     }
+.img-tarjeta{
+  width: 225px;
+}
+.text-img {
+  position: relative;
+  top: -27px;
+  background-color:#61b9c5;
+  color:#01292e;
+  left: 97px;
+  width: 120px;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 4px ;
+}
+.image-container{
+  height: 10rem ;
+}
+.text-container{
+  padding: 0 14px;
+  color: #014750;
+  font-size: 0.9rem;
+  
+}
+.tituloTarjeta{
+  letter-spacing: 0.2rem;
+  
+}
+.text{
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  }
+  .infoCard{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0.9rem;
+    font-size: 0.8rem;
+    color: #2eabbb;
+    padding-bottom: 0.8rem;
+    
+}
+  
+  
